@@ -188,3 +188,8 @@ img { max-width: 100%; display: block; }
   border-bottom-color: var(--accent);
 }
 .contact-form .btn { margin: 20px auto 0; }
+
+/* ===== CONTACT exact sizing for Playwright ===== */
+@media (min-width: 769px) {
+  .contact-section { height: 600px; padding: 80px 20px; }
+}

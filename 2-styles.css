@@ -167,3 +167,6 @@ img { max-width: 100%; display: block; }
 @media (min-width: 769px) {
   .results-section { height: 643px; }
 }
+@media (max-width: 768px) and (min-width: 481px) {
+  .results-section { height: 1024px; }
+}

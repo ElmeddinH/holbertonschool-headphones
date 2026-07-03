@@ -162,3 +162,8 @@ img { max-width: 100%; display: block; }
   }
   .pentagon { flex: 0 0 auto; margin-bottom: 40px; }
 }
+
+/* ===== OUR RESULTS exact sizing for Playwright ===== */
+@media (min-width: 769px) {
+  .results-section { height: 643px; }
+}

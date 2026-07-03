@@ -193,3 +193,6 @@ img { max-width: 100%; display: block; }
 @media (min-width: 769px) {
   .contact-section { height: 600px; padding: 80px 20px; }
 }
+@media (max-width: 768px) and (min-width: 481px) {
+  .contact-section { height: 600px; padding: 80px 20px; }
+}

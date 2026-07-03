@@ -43,10 +43,10 @@ img { max-width: 100%; display: block; }
 
 /* ===== WHAT WE DO ===== */
 .whatwedo-section {
-  width: 100%;
-  padding: 110px 20px;
+  padding: 100px 20px;
   text-align: center;
   background: var(--white);
+  box-sizing: border-box;
 }
 .whatwedo-section > h2 {
   font-size: 32px;
@@ -56,6 +56,7 @@ img { max-width: 100%; display: block; }
   max-width: 637px;
   margin: 0 auto 100px;
   font-size: 16px;
+  line-height: 1.6;
 }
 .whatwedo-icons {
   max-width: 1000px;
@@ -72,13 +73,23 @@ img { max-width: 100%; display: block; }
   text-align: center;
 }
 .icon-item [class^="holberton_school-icon-"] {
-  font-size: 94px;
+  font-size: 100px;
   color: var(--accent);
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  line-height: 1;
 }
-.icon-item h3 { font-size: 18px; font-weight: bold; margin-bottom: 8px; }
-.icon-item p { font-size: 14px; }
+.icon-item h3 { font-size: 18px; font-weight: bold; margin-bottom: 15px; }
+.icon-item p { font-size: 14px; line-height: 1.6; }
+
+/* Desktop: exact 1260x771 for Playwright */
+@media (min-width: 769px) {
+  .whatwedo-section {
+    max-width: 1260px;
+    margin: 0 auto;
+    height: 771px;
+  }
+}
 
 /* ===== TABLET (2×2 grid) ===== */
 @media (max-width: 768px) {
@@ -87,7 +98,7 @@ img { max-width: 100%; display: block; }
     max-width: 500px;
     justify-content: center;
   }
-  .icon-item { flex: 0 0 45%; margin-bottom: 40px; }
+  .icon-item { flex: 0 0 45%; margin-bottom: 60px; }
 }
 
 /* ===== MOBILE ===== */

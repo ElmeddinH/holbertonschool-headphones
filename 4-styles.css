@@ -214,3 +214,8 @@ img { max-width: 100%; display: block; }
 @media (max-width: 480px) {
   .footer-inner { flex-direction: column; text-align: center; }
 }
+
+/* ===== FOOTER exact sizing for Playwright ===== */
+@media (min-width: 769px) {
+  .footer { height: 250px; padding: 60px 20px; box-sizing: border-box; }
+}

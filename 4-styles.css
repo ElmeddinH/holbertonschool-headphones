@@ -222,3 +222,6 @@ img { max-width: 100%; display: block; }
 @media (max-width: 768px) and (min-width: 481px) {
   .footer { height: 250px; padding: 60px 20px; box-sizing: border-box; }
 }
+@media (max-width: 480px) {
+  .footer { height: 250px; padding: 40px 20px; box-sizing: border-box; }
+}
